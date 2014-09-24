@@ -1,0 +1,93 @@
+/* = base.css
+--------------------------------------------------- */
+body {
+	margin: 0;
+	padding: 30px 0 0 0;
+	font: normal 12px/20px Verdana, Geneva, sans-serif;
+	color: #333;
+	background-repeat: repeat;
+	background-position: center top;
+	background-color: transparent;
+}
+form {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+blockquote {
+	margin:  0 0 1em 0;
+	padding: 1em 1em 0 1em;
+	border: 1px solid #ccc;
+	background: #fff none;
+	font-style: italic;
+}
+blockquote em {
+	font-style: normal;
+}
+blockquote blockquote {
+	border-color: #ccc;
+	background: #efefef none;
+	font-style: normal;
+}
+blockquote blockquote em {
+	font-style: italic;
+}
+blockquote blockquote blockquote {
+	border-color: #ccc;
+	background: #fff none;
+	font-style: italic;
+}
+blockquote blockquote em {
+	font-style: normal;
+}
+iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	display: block;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+p {
+	display: block;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+img {
+	border: 1px solid #ccc;
+	background: #fff none;
+	padding: 4px;
+}
+a {
+	outline: none;
+}
+a:link,
+a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover,
+a:active {
+	color: #333;
+	text-decoration: none;
+}
+abbr {
+	border: 0 none;
+}
+input,
+button,
+select,
+option,
+textarea {
+	font: normal 12px/12px 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+*:focus {
+	outline: none;
+}

@@ -1,0 +1,59 @@
+
+
+/* = footbar.css
+--------------------------------------------------- */
+
+/* = Footbar
+--------------------------------------------------- */
+
+#footbar-wrap {
+	background: #eeeff0 url('../images/bg-sidebar-duo-1.gif') center top repeat-x;
+	padding: 30px 0;
+}
+#footbar {
+	font: normal 12px/16px Georgia, serif;
+	color: #999;
+	margin: 0 auto;
+	width: 960px;
+}
+#footbar a {
+	color: #666;
+	text-decoration: none;
+}
+#footbar a:hover {
+	text-decoration: underline;
+}
+#footbar .bar {
+	float: left;
+	margin: 0 35px 0 0;
+}
+#footbar .bar-1 {
+	width: 250px
+}
+#footbar .bar-2 {
+	width: 250px
+}
+#footbar .bar-3 {
+	width: 160px
+}
+#footbar .bar-4 {
+	width: 160px;
+	margin: 0;
+}
+#footbar .title {
+	font: normal 20px/24px Georgia, serif;
+	margin: 0 0 10px 0;
+	padding: 0;
+	color: #090909;
+}
+#footbar .widget ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#footbar .widget li {
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	background: transparent url('../images/bg-sidebar-duo-1.gif') center bottom repeat-x;
+}

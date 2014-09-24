@@ -1,0 +1,267 @@
+
+/* = sidebar.css
+--------------------------------------------------- */
+
+
+/* = Sidebar General Rules
+--------------------------------------------------- */
+
+.sidebar {
+	background: transparent url('../images/bg-sidebar.gif') left top repeat-y;
+}
+.sidebar h2 {
+	display: none;
+}
+.sidebar .widget {
+	margin: 0 1px;
+	padding: 0 9px;
+	color: #666;
+	background: transparent url('../images/bg-sidebar-duo-1.gif') center top repeat-x;
+	font-family: Georgia, serif;
+}
+.sidebar .widget .title {
+	display: block;
+	padding: 5px 9px 7px 9px;
+	margin: 0 -9px;
+	font: bold 14px/20px Georgia, serif;
+	text-transform: uppercase;
+	color: #000;
+	background: transparent url('../images/bg-sidebar-duo-1.gif') center bottom repeat-x;
+}
+.sidebar ul {
+	display: block;
+	margin: 0 0 -10px 0;
+	padding: 10px 0 0 0;
+	list-style: none;
+}
+.sidebar li {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	background: transparent url('../images/bg-sidebar-duo-1.gif') center bottom repeat-x;
+}
+.sidebar ul ul {
+	margin: 10px 0 -20px 0;
+	background: transparent url('../images/bg-sidebar-duo-1.gif') center top repeat-x;
+}
+.sidebar ul ul li {
+	padding: 0 0 10px 20px;
+}
+.sidebar ul ul ul  {
+	margin: 10px 0 -20px -20px;
+}
+.sidebar ul ul ul li {
+	padding: 0 0 10px 40px;
+}
+.sidebar li:last-child {
+	background: transparent none;
+}
+.sidebar .bottom {
+	height: 2px;
+	margin: 0 1px;
+	font-size: 1px;
+	background: transparent url('../images/bg-sidebar-duo-2.gif') center bottom repeat-x;
+}
+
+/* = Search Form
+--------------------------------------------------- */
+
+.sidebar .widget_search {
+	padding: 11px 9px 9px 9px;
+	height: 32px;
+}
+.sidebar .widget_search .title {
+	display: none;
+}
+.sidebar .widget_search p {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.sidebar .widget_search label {
+	display: none;
+}
+.sidebar .widget_search .input {
+	display: block;
+	float: left;
+}
+.sidebar .widget_search input {
+	border: 1px solid #fff;
+	border-right: 0 none;
+	width: 130px;
+	margin: 0;
+	padding: 7px 5px 7px 28px;
+	line-height: 12px;
+	background: #d2d4d5 url('../images/bg-search.gif') 6px 50% no-repeat;
+	color: #666;
+}
+.sidebar .widget_search button {
+	background: #333 none;
+	margin: 0;
+	border: 1px solid #fff;
+	border-left: 0 none;
+	color: #aaa;
+	cursor: pointer;
+	height: 31px;
+	line-height: 30px;
+	float: left;
+	padding: 0 10px;
+}
+
+/* = Tag Cloud
+--------------------------------------------------- */
+
+.sidebar .tagcloud {
+	margin-top: 1em;
+}
+
+/* = Calendar
+--------------------------------------------------- */
+
+table#wp-calendar {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table#wp-calendar caption {
+	font-weight: bold;
+	padding: 5px;
+}
+table#wp-calendar th,
+table#wp-calendar td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 5px;
+}
+table#wp-calendar td#prev {
+	border-left: 0 none;
+	border-right: 0 none;
+}
+table#wp-calendar td.pad {
+	border-left: 0 none;
+	border-right: 0 none;
+}
+
+
+/* = Popular Posts
+--------------------------------------------------- */
+
+.sidebar .popular-posts  ul li {
+	min-height: 57px;
+}
+.sidebar .popular-posts  ul li img {
+	float: left;
+	padding: 0;
+	border: 0 none;
+}
+.sidebar .popular-posts  ul li a {
+	display: inline;
+	background: transparent none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar .popular-posts ul li a span.wpp-post-title {
+	display: block;
+	margin: 0 0 0 67px;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 16px;
+}
+.sidebar .popular-posts ul li a:hover span.wpp-post-title {
+	text-decoration: underline;
+}
+.sidebar .popular-posts ul li span.post-stats {
+	display: block;
+	margin: 5px 0 0 67px;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 14px;
+	color: #999;
+}
+
+
+/* = Social Net
+--------------------------------------------------- */
+
+.sidebar .widget_socialnet ul {
+	height: 31px;
+	padding: 10px 0 20px 0;
+}
+.sidebar .widget_socialnet li {
+	float: left;
+	margin: 0 7px;
+	padding: 0;
+	height: 31px;
+	background: transparent none;
+}
+.sidebar .widget_socialnet li a {
+	display: block;
+	background-image: url('../images/icon-social.png');
+	background-repeat: no-repeat;
+	height: 31px;
+	overflow: hidden;
+	text-indent: -9000px;
+	width: 31px;
+}
+.sidebar .widget_socialnet li.googlebuzz a {
+	background-position: 0px 0px
+}
+.sidebar .widget_socialnet li.twitter a {
+	background-position: -31px 0px;
+}
+.sidebar .widget_socialnet li.facebook a {
+	background-position: -62px 0px;
+}
+.sidebar .widget_socialnet li.rss a {
+	background-position: -93px 0px;
+}
+.sidebar .widget_socialnet li.mail a {
+	background-position: -124px 0px;
+}
+
+
+/* = flickrrss RU
+--------------------------------------------------- */
+.sidebar .widget_flickrRSSRU {
+
+}
+.sidebar .widget_flickrRSSRU .title {
+	margin-bottom: 10px;
+}
+.sidebar .widget_flickrRSSRU a {
+	padding: 0;
+}
+.sidebar .widget_flickrRSSRU img {
+	width: 70px;
+	height: 70px;
+	margin: 0 6px 6px 0;
+	padding: 0;
+	border: 0 none;
+}
+
+
+/* = Facebook
+--------------------------------------------------- */
+.sidebar .widget_fb_likebox {
+	padding-bottom: 10px
+}
+.sidebar .widget_fb_likebox .title {
+	margin-bottom: 10px
+}
+.sidebar .widget_fb_likebox iframe {
+	background: #fff none;
+}
+
+/* = Sponsors
+--------------------------------------------------- */
+.sidebar .widget_ads .title {
+	margin-bottom: 10px
+}
+.sidebar .widget_ads span.ads {
+	padding-bottom: 10px;
+	text-align: center;
+	display: block;
+}
+.sidebar .widget_ads  span.ads img {
+	border: 0 none;
+	padding: 0;
+}

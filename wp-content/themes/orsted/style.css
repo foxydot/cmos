@@ -1,0 +1,524 @@
+/*
+Theme Name: Orsted Theme
+Author: WPCorner.com
+Author URI: http://www.wpcorner.com/
+*/
+
+* {
+	margin: 0; padding: 0;
+}
+body {
+	text-align: center;
+	font: 12px Verdana;
+	color: #000000;
+	background: url(images/background.gif) repeat-x 0 0;
+}
+a {
+	color: #A1BB47;
+}
+a:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+img {
+	border: 0;
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both;
+}
+.alignleft {
+	float: left;
+	margin: 4px 10px 5px 0;
+}
+.alignright {
+	float: right;
+	margin: 4px 0 5px 10px;
+}
+.aligncenter {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+/** BEGIN wrapper **/
+#wrapper, .wrapper {
+	width: 890px;
+	margin: auto auto;
+	text-align: left;
+}
+/** END wrapper **/
+
+/** BEGIN header **/
+#header {
+	height: 140px;
+}
+	#header h1 {
+		float: left;
+		padding-top: 50px;
+	}
+		#header h1 a {
+			display: block;
+			text-indent: -9999px;
+			outline: none;
+			width: 269px; height: 47px;
+			background: url(images/logo.gif) no-repeat 0 0;
+		}
+	#header ul {
+		float: right;
+		list-style-type: none;
+		padding-top: 50px;
+	}
+		#header ul li {
+			float: left;
+		}
+		#header ul li a {
+			color: #CCCCCC;
+			font-weight: bold;
+			text-decoration: none;
+			display: block;
+			padding: 8px 15px;
+			font-size: 0.9em;
+			text-transform: uppercase;
+		}
+		#header ul li a:hover {
+			background-color: #3A3A3A;
+		}
+/** END header **/
+
+/** BEGIN featured **/
+#featured {
+	height: 270px;
+	position: relative;
+}
+	#featured .container {
+		width: 830px; height: 180px;
+		overflow: hidden;
+		position: absolute;
+		top: 40px; left: 20px;
+	}
+	#featured ul {
+		list-style-type: none;
+		width: 99999px;
+		position: absolute;
+		top: 0; left: 0;
+	}
+		#featured ul li {
+			float: left;
+			margin-right: 10px;
+		}
+		#featured ul li a {
+			width: 180px; height: 160px;
+			display: block;
+			overflow: hidden;
+			border: 10px solid #ffffff;
+		}
+		#featured ul li img {
+			height: 160px;
+		}
+	#featured .next {
+		width: 21px; height: 40px;
+		display: block;
+		outline: none;
+		text-indent: -9999px;
+		background: url(images/previous.gif) no-repeat 0 0;
+		position: absolute;
+		top: 100px; left: -1px;
+	}
+	#featured .prev {
+		width: 21px; height: 40px;
+		display: block;
+		outline: none;
+		text-indent: -9999px;
+		background: url(images/next.gif) no-repeat 0 0;
+		position: absolute;
+		top: 100px; left: 850px;
+	}
+/** END featured **/
+
+/** BEGIN content **/
+#content {
+	width: 535px;
+	float: left;
+	padding-top: 40px;
+}
+	#content .post {
+		clear: both;
+		border-bottom: 1px dashed #E1E1E1;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+	}
+		#content .post .thumb {
+			float: left;
+			margin: 0 10px 10px 0;
+			padding: 2px;
+			border: 1px solid #E8E8E8;
+		}
+			#content .post .thumb a {
+				width: 196px; height: 196px;
+				display: block;
+				overflow: hidden;
+			}
+			#content .post .thumb img {
+				height: 196px;
+			}
+		#content .post h2 {
+			margin-bottom: 5px;
+			font-size: 1.5em;
+		}
+			#content .post h2 a {
+				text-decoration: none;
+				color: #000000;
+			}
+		#content .post .details {
+			font-size: 0.9em;
+			color: #808080;
+			margin-bottom: 10px;
+		}
+		#content .post p {
+			line-height: 1.5em;
+			margin-bottom: 10px;
+		}
+		#content .post a {
+			text-decoration: none;
+		}
+		#content .post .readmore {
+			font-weight: bold;
+		}
+	#content .postnav {
+		font-size: 0.9em;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+		#content .postnav a {
+			text-decoration: none;
+		}
+/** END content **/
+
+/** BEGIN sidebar **/
+#sidebar {
+	width: 300px;
+	float: right;
+	padding-top: 40px;
+}
+	#sidebar .box {
+		clear: both;
+		margin-bottom: 20px;
+		background-color: #FCFCFC;
+		border: 1px solid #E8E8E8;
+		padding: 12px;
+	}
+		#sidebar .box .popular {
+			list-style-type: none;
+		}
+			#sidebar .box .popular li {
+				clear: both;
+				padding-bottom: 10px;
+				line-height: 1.6em;
+			}
+			#sidebar .box .popular li img {
+				width: 50px; height: 50px;
+				float: left;
+				margin: 0 10px 10px 0;
+				padding: 5px;
+				border: 1px solid #E8E8E8;
+				background-color: #ffffff;
+			}
+			#sidebar .box .popular li a {
+				color: #000000;
+				text-decoration: none;
+			}
+			#sidebar .box .popular li p {
+				padding-top: 5px;
+				color: #A1BA47;
+			}
+		#sidebar .box h2 {
+			color: #373737;
+			font-size: 0.9em;
+			margin-bottom: 15px;
+			padding-bottom: 10px;
+			border-bottom: 1px dashed #CCCCCC;
+		}
+		#sidebar .box .subscribe {
+			list-style-type: none;
+			height: 32px;
+			padding-left: 5px;
+			margin-bottom: 10px;
+		}
+			#sidebar .box .subscribe li {
+				float: left;
+				margin: 0 6px;
+			}
+			#sidebar .box .subscribe li a {
+				display: block;
+				width: 32px; height: 32px;
+				text-indent: -9999px;
+				outline: none;
+				background: url(images/rss.gif) no-repeat 0 0;
+			}
+			#sidebar .box .subscribe li.mail a { background-image: url(images/mail.gif); }
+			#sidebar .box .subscribe li.twitter a { background-image: url(images/twitter.gif); }
+			#sidebar .box .subscribe li.facebook a { background-image: url(images/facebook.gif); }
+			#sidebar .box .subscribe li.delicious a { background-image: url(images/delicious.gif); }
+			#sidebar .box .subscribe li.stumbleupon a { background-image: url(images/stumbleupon.gif); }
+		#sidebar .box .ads {
+			text-align: center;
+		}
+			#sidebar .box .ads img {
+				margin: 5px;
+			}
+		#sidebar .box form {
+			width: 268px; height: 37px;
+			background: url(images/search.gif) no-repeat 0 0;
+		}
+			#sidebar .box form input {
+				float: left;
+				border: 0;
+				width: 210px;
+				margin: 10px 0 0 10px;
+				background-color: transparent;
+			}
+			#sidebar .box form button {
+				float: right;
+				border: 0;
+				width: 37px; height: 37px;
+				text-indent: -9999px;
+				background-color: transparent;
+			}
+		#sidebar .box .flickr {
+			text-align: center;
+		}
+			#sidebar .box .flickr img {
+				margin: 4px;
+			}
+		#sidebar .box .tags {
+			padding: 5px;
+		}
+			#sidebar .box .tags a {
+				color: #373737;
+				text-decoration: none;
+			}
+			#sidebar .box .tags a:hover {
+				color: #82A40A;
+			}
+/** END sidebar **/
+
+/** BEGIN footer 1 **/
+#footer1 {
+	clear: both;
+	background-color: #252525;
+	color: #ffffff;
+	padding: 20px 0;
+}
+	#footer1 .box {
+		float: left;
+		width: 178px;
+	}
+		#footer1 .box h2 {
+			text-transform: uppercase;
+			font-size: 1em;
+			margin-bottom: 10px;
+		}
+		#footer1 .box ul {
+			list-style-type: none;
+		}
+			#footer1 .box ul li {
+				line-height: 1.6em;
+				padding: 5px 0 5px 15px;
+				background: url(images/bullet.gif) no-repeat 0 12px;
+			}
+			#footer1 .box ul li a {
+				text-decoration: none;
+				color: #ffffff;
+			}
+/** END footer 1 **/
+
+/** BEGIN footer 2 **/
+#footer2 {
+	background: #212121 url(images/footer.gif) repeat-x 0 0;
+	color: #ffffff;
+	height: 50px;
+}
+	#footer2 .l {
+		float: left;
+		padding-top: 15px;
+	}
+	#footer2 .r {
+		float: right;
+		padding-top: 15px;
+	}
+	#footer2 a {
+		color: #ffffff;
+	}
+/** END footer 2 **/
+
+/** BEGIN miscellaneous **/
+#content .single {
+	margin-bottom: 50px;
+}
+	#content .single p {
+		line-height: 1.5em;
+		margin-bottom: 10px;
+	}
+	#content .single ul, #content .single ol {
+		list-style-position: inside;
+		margin-bottom: 10px;
+	}
+	#content .single li {
+		line-height: 1.5em;
+		padding: 2px 0;
+	}
+	#content .single blockquote {
+		padding: 10px 10px 5px;
+		margin-bottom: 10px;
+		background-color: #eeeeee;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #bbbbbb;
+	}
+	#content .single h3, #content .single h4, #content .single h5, #content .single h6 {
+		font-size: 1.2em;
+		margin-bottom: 5px;
+	}
+	#content .single h2 {
+		font-size: 2em;
+	}
+#comments {
+	padding: 15px 0;
+}
+	#comments a {
+		text-decoration: none;
+	}
+	#comments h2 {
+		font-size: 1.2em;
+		margin: 10px 0;
+	}
+	#comments p {
+		margin-bottom: 10px;
+		line-height: 1.6em;
+	}
+	#comments form {
+		
+	}
+	#comments form p {
+		margin-bottom: 5px;
+	}
+		#comments form input {
+			margin-right: 5px;
+		}
+		#comments form input, textarea {
+			border: 1px solid #bbbbbb;
+			font-size: 0.9em;
+			font-family: Verdana;
+			padding: 4px;
+			background-position: 4px 4px;
+			background-repeat: no-repeat;
+		}
+		#comments form input {
+			width: 240px;
+			border: 1px solid #bbbbbb;
+		}
+		#comments form textarea {
+			width: 350px;
+			padding: 4px 4px !important;
+			border: 1px solid #bbbbbb;
+		}
+		#comments form button {
+			border: 1px solid #a0a0a0;
+			font-size: 1em;
+			font-family: Verdana;
+			padding: 2px 6px;
+		}
+	.commentdetails {
+		margin-top: 25px;
+	}
+	.commentauthor {
+		margin-bottom: 5px !important;
+		font-weight: bold;
+	}
+	.commentdate {
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		color: #909090;
+	}
+	.required {
+		color: #ff0000;
+	}
+h2.title {
+	font-size: 1em !important;
+	text-transform: uppercase;
+	color: #565656;
+	padding: 0 0 40px;
+}
+.notfound {
+	padding: 40px;
+}
+	.notfound h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+
+/** END miscellaneous **/
+
+/** BEGIN wordpress 2.7 comments **/
+#comments ol {
+	list-style-type: none;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+	#comments .buffer {
+		padding: 10px;
+	}
+	#comments ol li {
+		margin-bottom: 10px;
+	}
+	#comments ol li ul li {
+		border: 1px solid #eeeeee;
+		padding: 10px;
+	}
+	#comments ol li .avatar {
+		float: right;
+	}
+	#comments ol li .comment-author {
+		
+	}
+		#comments ol li .comment-author .fn {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+	#comments ol li .comment-meta {
+		font-size: 0.9em;
+		color: #999999;
+		margin: 5px 0 10px;
+	}
+	#comments ol li .reply {
+		font-size: 0.9em;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	#comments .children {
+		list-style-type: none;
+	}
+#comments .navigation {
+	padding: 0 0 40px;
+	font-size: 0.9em;
+}
+	#comments .navigation a {
+		color: #999999;
+		padding: 3px 8px;
+		border: 1px solid #bbbbbb;
+	}
+	#comments .navigation a:hover {
+		color: #000000;
+		border-color: #000000;
+		text-decoration: none;
+	}
+#comments .says {
+	display: none;
+}
+/** END wordpress 2.7 comments **/

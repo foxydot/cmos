@@ -1,0 +1,722 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPTF Freemium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-19 16:10+0800\n"
+"PO-Revision-Date: 2011-07-19 16:10+0800\n"
+"Last-Translator: James Lloyd Atwil <james@paddsolutions.com>\n"
+"Language-Team: Padd Solutions <info@paddsolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Country: Philippines\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:20
+#: ../loop.php:15
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:23
+#: ../loop.php:18
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:15
+#: ../archive.php:17
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:15
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:17
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:19
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../archive.php:21
+#, php-format
+msgid "Posts under %s Category"
+msgstr ""
+
+#: ../archive.php:23
+#, php-format
+msgid "Posts Tagged  &#8216;%s &#8217;"
+msgstr ""
+
+#: ../archive.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: ../comments.php:9
+#: ../comments.php:76
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:10
+msgid "Tell us what do you think."
+msgstr ""
+
+#: ../comments.php:14
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:20
+msgid "There are no comments on this entry."
+msgstr ""
+
+#: ../comments.php:29
+msgid "Trackbacks"
+msgstr ""
+
+#: ../comments.php:30
+msgid "Websites mentioned my entry."
+msgstr ""
+
+#: ../comments.php:34
+msgid "This post is password protected. Enter the password to view trackbacks."
+msgstr ""
+
+#: ../comments.php:40
+msgid "There are no trackbacks on this entry"
+msgstr ""
+
+#: ../comments.php:52
+msgid "Fill in the form and submit."
+msgstr ""
+
+#: ../comments.php:63
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:63
+#: ../comments.php:67
+msgid "(Required)"
+msgstr ""
+
+#: ../comments.php:67
+msgid "E-mail"
+msgstr ""
+
+#: ../comments.php:67
+#: ../comments.php:71
+msgid "(Optional)"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:86
+msgid "Submit"
+msgstr ""
+
+#: ../header.php:52
+msgid "Home 1"
+msgstr ""
+
+#: ../header.php:59
+msgid "Home 2"
+msgstr ""
+
+#: ../header.php:66
+msgid "Home 3"
+msgstr ""
+
+#: ../search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:11
+#: ../searchform.php:13
+#: ../sidebar.php:9
+msgid "Search"
+msgstr ""
+
+#: ../sidebar-foot.php:10
+msgid "Recent Coments"
+msgstr ""
+
+#: ../sidebar-foot.php:20
+msgid "Recent Posts"
+msgstr ""
+
+#: ../sidebar-foot.php:31
+msgid "Tags"
+msgstr ""
+
+#: ../sidebar-foot.php:40
+msgid "Partners"
+msgstr ""
+
+#: ../sidebar.php:4
+msgid "Sidebar"
+msgstr ""
+
+#: ../sidebar.php:14
+msgid "Most Popular"
+msgstr ""
+
+#: ../sidebar.php:19
+msgid "Subscribe"
+msgstr ""
+
+#: ../sidebar.php:24
+msgid "Featured Photos"
+msgstr ""
+
+#: ../single.php:28
+msgid "Share Our Posts"
+msgstr ""
+
+#: ../single.php:29
+msgid "Share this post through social bookmarks."
+msgstr ""
+
+#: ../administration/options-functions.php:11
+msgid "Favicon URL"
+msgstr ""
+
+#: ../administration/options-functions.php:12
+msgid "The URL where your favicon is located. Must start with <code>http://</code> or <code>https://</code>."
+msgstr ""
+
+#: ../administration/options-functions.php:17
+msgid "Logo URL"
+msgstr ""
+
+#: ../administration/options-functions.php:18
+msgid "The URL where your logo is located. Must start with <code>http://</code> or <code>https://</code>. The height of the image should be 48 pixels."
+msgstr ""
+
+#: ../administration/options-functions.php:23
+msgid "Designated Featured Page"
+msgstr ""
+
+#: ../administration/options-functions.php:24
+msgid "A page that is designated as featured page, shown at the home page."
+msgstr ""
+
+#: ../administration/options-functions.php:29
+msgid "First Column Page"
+msgstr ""
+
+#: ../administration/options-functions.php:30
+msgid "The page title to show the contents of the first column in home page."
+msgstr ""
+
+#: ../administration/options-functions.php:35
+msgid "Second Column Page"
+msgstr ""
+
+#: ../administration/options-functions.php:36
+msgid "The page title to show the contents of the second column in home page."
+msgstr ""
+
+#: ../administration/options-functions.php:41
+msgid "Third Column Page"
+msgstr ""
+
+#: ../administration/options-functions.php:42
+msgid "The page title to show the contents of the third column in home page."
+msgstr ""
+
+#: ../administration/options-functions.php:47
+msgid "Show Trackbacks"
+msgstr ""
+
+#: ../administration/options-functions.php:48
+msgid "Tick this box to render the trackbacks."
+msgstr ""
+
+#: ../administration/options-functions.php:56
+msgid "Background Mode"
+msgstr ""
+
+#: ../administration/options-functions.php:57
+msgid "Image changes only at the top portion of the header and the footer background. Select Ready-Made mode if you want ready-made background tiles or Custom Background if you want to upload your own."
+msgstr ""
+
+#: ../administration/options-functions.php:59
+msgid "Ready-Made"
+msgstr ""
+
+#: ../administration/options-functions.php:60
+msgid "Custom Background"
+msgstr ""
+
+#: ../administration/options-functions.php:65
+msgid "Background Tile"
+msgstr ""
+
+#: ../administration/options-functions.php:71
+msgid "Background URL"
+msgstr ""
+
+#: ../administration/options-functions.php:72
+msgid "The URL where your custom background is located. Must start with <code>http://</code> or <code>https://</code>."
+msgstr ""
+
+#: ../administration/options-functions.php:80
+msgid "Tracker Code 1"
+msgstr ""
+
+#: ../administration/options-functions.php:81
+msgid "A tracker code to be placed inside the <code>&lt;head&gt;</code> tag."
+msgstr ""
+
+#: ../administration/options-functions.php:86
+msgid "Tracker Code 2"
+msgstr ""
+
+#: ../administration/options-functions.php:87
+msgid "A tracker code to be placed just after the opening <code>&lt;body&gt;</code> tag."
+msgstr ""
+
+#: ../administration/options-functions.php:92
+msgid "Tracker Code 3"
+msgstr ""
+
+#: ../administration/options-functions.php:93
+msgid "A tracker code to be placed just before the closing <code>&lt;body&gt;</code> tag."
+msgstr ""
+
+#: ../administration/options-functions.php:101
+msgid "Facebook Username or URL"
+msgstr ""
+
+#: ../administration/options-functions.php:102
+msgid "Your <a href=\"http://www.facebook.com\">Facebook</a> username. Please note that user name <em>does not mean</em> your e-mail address. <a href=\"http://www.facebook.com/help.php?page=897\">Read the Q&amp;A</a> for more info."
+msgstr ""
+
+#: ../administration/options-functions.php:107
+msgid "Feedburner Username"
+msgstr ""
+
+#: ../administration/options-functions.php:108
+msgid "Your user name in Feedburner."
+msgstr ""
+
+#: ../administration/options-functions.php:113
+msgid "Flickr Username"
+msgstr ""
+
+#: ../administration/options-functions.php:114
+msgid "Your user name in Flickr."
+msgstr ""
+
+#: ../administration/options-functions.php:119
+msgid "Google Buzz Username"
+msgstr ""
+
+#: ../administration/options-functions.php:120
+msgid "Your Google Buzz user name."
+msgstr ""
+
+#: ../administration/options-functions.php:125
+msgid "Twitter Username"
+msgstr ""
+
+#: ../administration/options-functions.php:126
+msgid "Your <a href=\"http://twitter.com\">Twitter</a> user name. You may leave it blank if you don't have one but we recommend to <a href=\"http://twitter.com/signup\">create an account</a>."
+msgstr ""
+
+#: ../administration/options-functions.php:134
+msgid "Number of Pages to Show"
+msgstr ""
+
+#: ../administration/options-functions.php:135
+msgid "The number of pages to show in the page navigation at a time."
+msgstr ""
+
+#: ../administration/options-functions.php:140
+msgid "Number of Large Page Numbers to Show"
+msgstr ""
+
+#: ../administration/options-functions.php:141
+msgid "Larger page numbers are in additional to the default page numbers. It is useful for authors who is paginating through many posts.<br />For example, page navigation will display: Pages 1, 2, 3, 4, 5, 10, 20, 30, 40, 50.<br />Enter 0 to disable. "
+msgstr ""
+
+#: ../administration/options-functions.php:146
+msgid "Show Larger Page Numbers in Multiples of"
+msgstr ""
+
+#: ../administration/options-functions.php:147
+msgid "If mutiple is in 5, it will show: 5, 10, 15, 20, 25. If mutiple is in 10, it will show: 10, 20, 30, 40, 50."
+msgstr ""
+
+#: ../administration/options-functions.php:155
+msgid "Sidebar Ad Space 1 (125 &times; 125)"
+msgstr ""
+
+#: ../administration/options-functions.php:156
+#: ../administration/options-functions.php:162
+#: ../administration/options-functions.php:168
+#: ../administration/options-functions.php:174
+msgid "Link/Image advertisement code to be placed at the sidebar. It can be an HTML code, Google Adsense code or something else."
+msgstr ""
+
+#: ../administration/options-functions.php:161
+msgid "Sidebar Ad Space 2 (125 &times; 125)"
+msgstr ""
+
+#: ../administration/options-functions.php:167
+msgid "Sidebar Ad Space 3 (125 &times; 125)"
+msgstr ""
+
+#: ../administration/options-functions.php:173
+msgid "Sidebar Ad Space 4 (125 &times; 125)"
+msgstr ""
+
+#: ../administration/options-functions.php:208
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: ../administration/options-functions.php:236
+#, php-format
+msgid "%s options saved."
+msgstr ""
+
+#: ../administration/options-functions.php:237
+#, php-format
+msgid "%s options reset."
+msgstr ""
+
+#: ../administration/options-ui.php:3
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: ../administration/options-ui.php:8
+msgid "About"
+msgstr ""
+
+#: ../administration/options-ui.php:9
+msgid "General"
+msgstr ""
+
+#: ../administration/options-ui.php:10
+msgid "Background"
+msgstr ""
+
+#: ../administration/options-ui.php:11
+msgid "Page Tracker"
+msgstr ""
+
+#: ../administration/options-ui.php:12
+msgid "Social Networking"
+msgstr ""
+
+#: ../administration/options-ui.php:13
+msgid "Page Navigation"
+msgstr ""
+
+#: ../administration/options-ui.php:14
+msgid "Custom Ads"
+msgstr ""
+
+#: ../administration/options-ui.php:18
+msgid "About The Theme"
+msgstr ""
+
+#: ../administration/options-ui.php:19
+#, php-format
+msgid "%s is a freemium WordPress theme. This special WordPress theme is packed with a better framework, an admin options panel and an awesome design to boot. Download more <a href=\"http://www.paddsolutions.com\">free WordPress Themes</a>."
+msgstr ""
+
+#: ../administration/options-ui.php:20
+msgid "Donate To Us"
+msgstr ""
+
+#: ../administration/options-ui.php:21
+msgid "Donations are very welcome, any amount counts. Proceeds goes to the development of more freemium WordPress themes."
+msgstr ""
+
+#: ../administration/options-ui.php:28
+msgid "Subscribe To Us"
+msgstr ""
+
+#: ../administration/options-ui.php:29
+msgid "To get our latest updates, follow us at <a href=\"http://twitter.com/paddsolutions\" target=\"_blank\">Twitter</a>, be our <a href=\"http://www.facebook.com/paddsolutions\" target=\"_blank\">Facebook</a> fan or subscribe to our <a href=\"http://feeds.feedburner.com/paddsolutions\" target=\"_blank\">RSS</a> feed."
+msgstr ""
+
+#: ../administration/options-ui.php:30
+msgid "Get In Touch"
+msgstr ""
+
+#: ../administration/options-ui.php:31
+msgid "We love to hear your thoughts. Feel free to <a href=\"http://www.paddsolutions.com/contact-us/\" target=\"_blank\">contact us</a> should you need customization support, project quotations, advertisement proposals or just anything under the sun."
+msgstr ""
+
+#: ../administration/options-ui.php:32
+msgid "Disclaimer"
+msgstr ""
+
+#: ../administration/options-ui.php:33
+msgid "Our themes are provided \"as is\" without warranty of any kind, either expressed or implied. We are not responsible for any damage while using this theme, use it at your own risk."
+msgstr ""
+
+#: ../administration/options-ui.php:37
+msgid "General Options"
+msgstr ""
+
+#: ../administration/options-ui.php:38
+#, php-format
+msgid "General options for %s theme to work."
+msgstr ""
+
+#: ../administration/options-ui.php:49
+#: ../administration/options-ui.php:67
+#: ../administration/options-ui.php:85
+#: ../administration/options-ui.php:103
+#: ../administration/options-ui.php:121
+#: ../administration/options-ui.php:139
+msgid "Save Settings"
+msgstr ""
+
+#: ../administration/options-ui.php:55
+msgid "Background Options"
+msgstr ""
+
+#: ../administration/options-ui.php:56
+#, php-format
+msgid "Background options for %s theme."
+msgstr ""
+
+#: ../administration/options-ui.php:73
+msgid "Page Tracker Options"
+msgstr ""
+
+#: ../administration/options-ui.php:74
+#, php-format
+msgid "Page tracker options for %s theme."
+msgstr ""
+
+#: ../administration/options-ui.php:91
+msgid "Social Networking Options"
+msgstr ""
+
+#: ../administration/options-ui.php:92
+#, php-format
+msgid "Social networking options for %s theme."
+msgstr ""
+
+#: ../administration/options-ui.php:109
+msgid "Page Navigation Options"
+msgstr ""
+
+#: ../administration/options-ui.php:110
+#, php-format
+msgid "Page navigation options for %s theme."
+msgstr ""
+
+#: ../administration/options-ui.php:127
+msgid "Custom Advertisement Options"
+msgstr ""
+
+#: ../administration/options-ui.php:128
+#, php-format
+msgid "Custom advertisement options for %s theme."
+msgstr ""
+
+#: ../includes/class-input.php:114
+msgid "- Select -"
+msgstr ""
+
+#: ../includes/class-pagination.php:65
+msgid "Page <span class=\"n nc\">%CURRENT_PAGE%</span> of <span class=\"n nt\">%TOTAL_PAGES%</span>"
+msgstr ""
+
+#: ../includes/class-pagination.php:72
+msgid "&laquo; First"
+msgstr ""
+
+#: ../includes/class-pagination.php:83
+msgid "&laquo;"
+msgstr ""
+
+#: ../includes/class-pagination.php:95
+msgid "&raquo;"
+msgstr ""
+
+#: ../includes/class-pagination.php:105
+msgid "Last &raquo;"
+msgstr ""
+
+#: ../includes/class-twitter.php:123
+msgid "Twitter settings is not configured."
+msgstr ""
+
+#: ../includes/class-twitter.php:149
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../includes/class-twitter.php:151
+msgid "g:i A F jS"
+msgstr ""
+
+#: ../includes/class-twitter.php:154
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: ../includes/class-twitter.php:172
+msgid "No tweets yet."
+msgstr ""
+
+#: ../includes/class-widgets.php:61
+msgid "Social Network"
+msgstr ""
+
+#: ../includes/class-widgets.php:100
+msgid "Facebook Like Box"
+msgstr ""
+
+#: ../includes/class-widgets.php:138
+msgid "Sponsors"
+msgstr ""
+
+#: ../includes/functions.php:52
+#: ../includes/functions.php:78
+#, php-format
+msgid "<a href=\"%s\">Google Buzz</a>"
+msgstr ""
+
+#: ../includes/functions.php:57
+#, php-format
+msgid "<a href=\"%s\">Twitter</a>"
+msgstr ""
+
+#: ../includes/functions.php:61
+#, php-format
+msgid "<a href=\"%s\">Facebook</a>"
+msgstr ""
+
+#: ../includes/functions.php:67
+#, php-format
+msgid "<a href=\"%s\">RSS</a>"
+msgstr ""
+
+#: ../includes/functions.php:70
+#: ../includes/functions.php:88
+#, php-format
+msgid "<a href=\"%s\">Mail</a>"
+msgstr ""
+
+#: ../includes/functions.php:81
+#, php-format
+msgid "<a class=\"icon icon-facebook\" href=\"%s\"><span>Facebook</span></a>"
+msgstr ""
+
+#: ../includes/functions.php:84
+#, php-format
+msgid "<a class=\"icon icon-twitter\" href=\"%s\"><span>Twitter</span></a>"
+msgstr ""
+
+#: ../includes/functions.php:87
+#, php-format
+msgid "<a class=\"icon icon-rss\" href=\"%s\"><span>RSS</span></a>"
+msgstr ""
+
+#: ../includes/functions.php:106
+msgid "Enter your email address"
+msgstr ""
+
+#: ../includes/functions.php:124
+#, php-format
+msgid "Follow %s"
+msgstr ""
+
+#: ../includes/functions.php:194
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../includes/functions.php:270
+#, php-format
+msgid "%s says:"
+msgstr ""
+
+#: ../includes/functions.php:283
+msgid "Edit"
+msgstr ""
+
+#: ../includes/functions.php:308
+msgid "Share"
+msgstr ""
+
+#: ../includes/prelude.php:9
+#, php-format
+msgid "Copyright &copy; %1$s. %2$s. All rights reserved."
+msgstr ""
+
+#: ../includes/setup.php:19
+msgid "Main Menu"
+msgstr ""
+
+#: ../includes/setup.php:34
+msgid "Home widget area at the first column."
+msgstr ""
+
+#: ../includes/setup.php:42
+msgid "Home widget area at the second column."
+msgstr ""
+
+#: ../includes/setup.php:50
+msgid "Home widget area at the last column."
+msgstr ""
+
+#: ../includes/setup.php:64
+msgid "Footer 1"
+msgstr ""
+
+#: ../includes/setup.php:65
+msgid "Footer widget area at the first column."
+msgstr ""
+
+#: ../includes/setup.php:72
+msgid "Footer 2"
+msgstr ""
+
+#: ../includes/setup.php:73
+msgid "Footer widget area at the second column."
+msgstr ""
+
+#: ../includes/setup.php:80
+msgid "Footer 3"
+msgstr ""
+
+#: ../includes/setup.php:81
+msgid "Footer widget area at the third column."
+msgstr ""
+
+#: ../includes/setup.php:88
+msgid "Footer 4"
+msgstr ""
+
+#: ../includes/setup.php:89
+msgid "Footer widget area at the last column."
+msgstr ""
+
+#: ../js/frontend.js.php:38
+#: ../js/frontend.js.php:39
+msgid "Enter Search"
+msgstr ""
+

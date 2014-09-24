@@ -1,0 +1,131 @@
+
+/* Comments
+-----------------------------------------*/
+
+.comments-list {
+	display: block;
+	list-style: none;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+.comments-list li.comment {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.comments-list li.comment ul.children {
+	margin: 0;
+	padding: 0 0 0 80px
+}
+.comment-box {
+	border: 1px solid #ccc;
+	background: #fff url('../images/bd-comment-vertical.gif') 171px top repeat-y;
+	margin: 0 0 10px 0;
+	padding: 10px;
+}
+.comment-box .comment-author {
+	width: 150px;
+	float: left;
+	font: normal 12px/16px 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+.comment-box .comment-author .author {
+	font-weight: bold;
+}
+.comment-box .comment-author .author a {
+	font-weight: bold;
+}
+.comment-box .comment-author .comment-avatar {
+	margin: 0 10px 0 0;
+	float: left;
+}
+.comment-box .comment-author .comment-avatar img.avatar {
+	border: 2px solid #ccc;
+	padding: 1px;
+}
+.comment-box .comment-author .comment-meta .author {
+	color: #666;
+}
+.comment-box .comment-author .comment-meta .time {
+	color: #999;
+	 font: normal 10px/14px 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+.comment-box .comment-author span {
+	display: block;
+}
+.comment-box .comment-details {
+	margin: 0 0 0 163px;
+	padding: 0 0 10px 10px;
+	min-height: 100px;
+}
+.comment-box .comment-actions {
+	padding: 4px 0;
+	text-align: right;
+	font: normal 10px/18px 'Lucida Sans', 'Lucida Grande', sans-serif;
+}
+.trackbacks-list {
+	margin: 0 0 0 3em;
+	padding: 0;
+}
+
+
+/* Comment Form
+-----------------------------------------*/
+
+#reply label {
+	display: block;
+	padding: 0 0 3px 6px;
+}
+#reply small {
+	color: #666;
+}
+#reply input {
+	border: 1px solid #ccc;
+	padding: 5px;
+	color: #000;
+	background: #fff none;
+}
+#reply textarea {
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 543px;
+	color: #000;
+	background: #fff none;
+}
+#reply button {
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	width: 99px;
+	height: 29px;
+	cursor: pointer;
+	background: transparent url('../images/button-comments-submit.png') left top no-repeat;
+}
+#reply button span {
+	display: none;
+}
+#reply .comment-submit {
+	text-align: right;
+}
+#reply .input {
+	display: block;
+	margin: 0 0 10px 0;
+}
+#reply .input-small {
+	width: auto;
+}
+#reply .input-small input {
+	width: 260px;
+}
+#reply .input-name {
+	float: left;
+}
+#reply .input-email {
+	float: right;
+}
+#reply .input-website {
+	clear: both;
+}
+#reply .input-website input {
+	width: 543px;
+}
